@@ -1,0 +1,232 @@
+header{
+  
+    padding-top: 10px;
+    background-color:chocolate;
+    min-width: 100%;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.logo image {
+  float: left;
+  padding-left: 10px;
+  }
+  .navbar {
+    float: right;
+   font-size: 30px;
+   padding-right: 40px;
+   
+    
+    
+  }
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+
+}
+.navbar a:hover{
+    color: black;
+    font-size: 35px;
+}
+.home{
+    margin-top: 9em;
+    margin-left: 8em;
+    margin-bottom: 10em;
+
+   
+}
+.content h3 {
+    font-size: 20px;
+}
+
+.content span {
+  
+    color:chocolate;
+  
+}
+.content h1 {
+    font-size: 2rem;
+}
+.content .btn{
+    text-decoration: none;
+    font-size: 2rem;
+    color:black;
+    background-color: chocolate;
+    padding: 10px;
+}
+.content .btn:hover {
+    background-color:coral;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.me h1  {
+    font-size: 2em;
+ text-align: center;
+ 
+}
+.me .first{
+text-align: center;
+padding: 50px;
+margin: auto;
+}
+.me span{
+    color:chocolate;
+}
+.details p{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    justify-content: center;
+   
+    
+}
+
+.qualification h1 {
+    font-size: 2rem;
+    margin: 3rem;
+    text-align: center;
+}
+.qualification span{
+    color:chocolate;
+}
+.qualification{
+margin: 3rem;
+}
+
+
+.qualification .left {
+    display: block;
+    text-align: center;
+    text-decoration:double;
+    border: 2px solid chocolate;
+    margin-left: 6em;
+    margin-right: 6em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ li:hover{
+    font-size: 25px;
+}
+.box {
+    display: inline-flex;
+    flex-wrap: wrap;
+justify-content: center;;
+align-items: center;
+
+}
+
+.box h2 {
+    padding-left: 20px;
+}
+
+.projects img {
+
+
+width: 250px;
+height: 200px;
+border: 1px solid black;
+
+margin-bottom: 20px;
+}
+.projects h2:hover{
+    color:coral;
+    font-size: 2em;
+}
+.projects {
+    margin: 2rem;
+}
+.projects h1{
+   font-size: 2rem;
+    margin: 3rem;
+    text-align: center;
+}
+.projects span{
+    color:chocolate;
+}
+.call  h1{
+    font-size: 2rem;
+    margin: 3rem;
+    text-align: center;
+   
+    
+   
+}
+.call span {
+    color: chocolate;
+}
+.first h3{
+  
+    text-align: center;
+}
+.call .first {
+    border: 1px solid chocolate;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    margin: 2em;
+}
+.call .first span {
+    color:chocolate;
+}
+.second {
+    display: inline-flex;
+    flex-wrap: wrap;
+   
+    justify-content: center;
+}
+.call .first:hover{
+    font-size: 1.5em;
+    color:darkgoldenrod;
+}
+
+
+@media screen (min-width: 320px), (max-width: 810px){
+header{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+    .navbar {
+   float: center;
+   padding-right: 80px;
+    }
+    .navbar a:hover{
+        color: black;
+        font-size: 15px;
+    }
+    .navbar a {
+ 
+        
+        font-size: 10px;
+        padding-bottom: 5px;
+    
+
+    } 
+}
+@media screen (min-width: 700px), (max-width: 1200px){
+    .navbar {
+    
+       font-size: 25px;
+       padding-right: 60px;
+    }
+        
+        
+    
+    .navbar a{
+        padding-left: 30px;
+  
+        flex-wrap: wrap;
+        font-weight: bold;
+    }
+    box {
+       
+    padding-left : 50px;
+   
+    margin-right: 3rem;
+    }
+}
+    
